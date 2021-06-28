@@ -1,0 +1,20 @@
+header {
+    background-image: url(images/background.jpg) ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: auto;
+}
+
+#forge {
+    background-image: url(images/forge.jpg) ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: auto; 
+}
+
+#palicot {
+    background-image: url(images/palicot.jpg) ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: auto;
+}
