@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Monster Hunter World</title>
   <link rel="stylesheet" href="index.css">
+  <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -21,11 +22,44 @@
 
     <section id="bestiaire">
         <h1>Le Bestiaire</h1>
-        <ul>
-            <li><img src="images/jagra.jpg" alt="jagra"></li>
-            <li><img src="images/Nergigante.jpg" alt="nergi"></li>
-            <li><img src="images/Yian-Garuga.jpg" alt="garuga"></li>
-        </ul>
+       
+        <!-- Conteneur principal de tout le diaporama -->
+        <div class="diapo">
+            <!-- Conteneur des "diapos" -->
+            <div class="elements">
+                <!-- 1ere diapo -->
+                <div class="element active">
+                    <img src="images/anja_et_ratha.jpg" alt="Anjanath">
+                </div>
+                <!-- 2eme diapo -->
+                <div class="element">
+                    <img src="images/jagra.jpg" alt="jagra">
+                </div>
+                <!-- 3eme diapo -->
+                <div class="element">
+                    <img src="images/kirin.jpg" alt="kirin">
+                </div>
+                <!-- 4eme diapo -->
+                <div class="element">
+                    <img src="images/kulve.jpg" alt="kulve">
+                </div>
+                <!-- 5eme diapo -->
+                <div class="element">
+                <img src="images/legiana.jpg" alt="legiana">
+                </div>
+                <!-- 6eme diapo -->
+                <div class="element">
+                <img src="images/Nergigante.jpg" alt="nergi">
+                </div>
+                <!-- 7eme diapo -->
+                <div class="element">
+                <img src="images/Yian-Garuga.jpg" alt="garuga">
+                </div>
+            </div>
+            <!-- Flèches de navigation -->
+            <i id="nav-gauche" class="las la-chevron-left"></i>
+            <i id="nav-droite" class="las la-chevron-right"></i>
+        </div>
     </section>
 
     <section id="forge">
@@ -33,7 +67,7 @@
         <img src="images/forge.jpg" alt="forge">
     </section>
 
-    <section id="palicot">
+    <section id="palico">
         <h1>Les Palico</h1>
     </section>
 

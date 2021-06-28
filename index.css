@@ -1,8 +1,13 @@
 header {
     background-image: url(images/background.jpg) ;
     background-repeat:no-repeat;
-    background-attachment:fixed;
     background-size: auto;
+}
+
+#bandeau {
+    background-color: black;
+    font-size: 1.5em;
+    color: white;
 }
 
 #forge {
@@ -12,9 +17,44 @@ header {
     background-size: auto; 
 }
 
-#palicot {
+#palico {
     background-image: url(images/palicot.jpg) ;
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size: auto;
+}
+
+/* on met en forme le diapo */
+.diapo{
+    position: relative;
+    overflow: hidden;
+}
+/* on place les fleches */
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3em;
+}
+#nav-droite{
+    right: 20px;
+}
+#nav-gauche{
+    left: 20px;
+}
+
+/* On met une flex box pour que les images soient à coté */
+.elements{
+    display: flex;
+    transition: 1s linear;
+}
+
+.element{
+    flex: 1 0 100%;
+    position: relative;
+}
+
+.element > img{
+    width: 100%;
 }
