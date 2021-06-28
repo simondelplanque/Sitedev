@@ -1,13 +1,19 @@
-#titre_noir {
-    font-size: 3em;
+#titre_bestiaire {
+    font-size: 5em;
     color: black;
     text-align: center;
 }
 
-#titre_blanc {
-    font-size: 3em;
+#titre_forge {
+    font-size: 5em;
     color: white;
     text-align: center;
+}
+
+#titre_palico {
+  font-size: 5em;
+  color: white;
+  text-align: center;
 }
 
 header {
@@ -18,17 +24,28 @@ header {
     background-size: cover;
 }
 
-li {
-    display:block;
-    float:left;   
-    width:200px;
-    background-color:black;
-    color:white;
-    font-size: 2em;
-    text-decoration:none;
-    text-align:center;
-    padding:5px;
-    border:2px solid;
+.menu {
+  display: flex;
+  padding:0;
+  background-color: black;
+  justify-content: center;
+}
+
+.menu li {
+  list-style-type: none ;
+}
+
+.menu a {
+  display:block;
+  min-width: 120px;
+  margin: 0.5rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 4px;
 }
 
 /* LE BESTIAIRE */
