@@ -149,10 +149,10 @@ label {
     to {opacity: 1}
   }
 
-  #titre_forge {
-    font-size: 7em;
-    color: white;
-    text-align: center;
+#titre_forge {
+  font-size: 7em;
+  color: white;
+  text-align: center;
 }
 
 #forge {
@@ -163,11 +163,28 @@ label {
   background-size: cover;
 }
 
+#lien_forge {
+  display: flex;
+  padding:0;
+  justify-content: center;
+  margin-top: 550px;
+}
+
+#lien_forge li {
+  list-style-type: none ;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+
 #lien_forge a {
+  display: block;
   text-decoration: none;
   color: white;
-  font-size: 2em;
+  font-size: 6em;
+  padding: 10px;
   border: 1px solid white;
+  border-radius: 12px;
 }
 
 #titre_palico {
