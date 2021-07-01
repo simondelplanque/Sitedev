@@ -185,7 +185,9 @@ label {
 }
 
 #spec_palico {
+  width: 30%;
   color: white;
+  padding: 10px;
   font-size: 1.2em;
   text-align: justify;
   border: 1px solid white;
