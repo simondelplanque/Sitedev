@@ -17,6 +17,12 @@ header {
     opacity: 4;
 }
 
+#login {
+  float: right;
+  margin: 10px;
+  color: white;
+}
+
 label {
   display: block;
 }
@@ -80,8 +86,8 @@ label {
 
 /* Chacher les images . a retravailler */
 .mySlides {
-    display: none;
-  }
+  display: none;
+}
 
 /* Gestion des fleches */
 .prev, .next {
@@ -185,6 +191,7 @@ label {
   padding: 10px;
   border: 1px solid white;
   border-radius: 12px;
+  box-shadow: 10px 5px 5px white;
 }
 
 #titre_palico {
