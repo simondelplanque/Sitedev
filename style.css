@@ -217,3 +217,14 @@ label {
   border: 1px solid white;
   border-radius: 12px;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
